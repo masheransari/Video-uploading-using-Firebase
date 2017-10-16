@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.asheransari.video_firebase.MainActivity">
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get Video From Storge" />
+
+    <TextView
+        android:id="@+id/imagePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Video" />
+
+    <TextView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploading status"
+        android:textSize="18sp" />
+</LinearLayout>
